@@ -1,4 +1,4 @@
-User1 ID,User2 ID,Total_messages,Aggressive_Count,Intent_to_Harm,Peerness,CB_Label
+User1_ID,User2_ID,Total_messages,Aggressive_Count,Intent_to_Harm,Peerness,CB_Label
 1,2,36,23,0.7694444444444444,0.5000000000000001,1
 1,3,16,9,0.48125,0.7666666666666666,1
 1,4,17,8,0.4477941176470588,0.3666666666666666,0
