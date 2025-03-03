@@ -38,6 +38,9 @@ test_merged["CB_Label"] = test_merged["CB_Label"].fillna("Unknown")
 
 train_merged = train_merged.sort_values(by=["source_node", "destination_node"]).reset_index(drop=True)
 test_merged = test_merged.sort_values(by=["source_node", "destination_node"]).reset_index(drop=True)
+train_merged.dropna()
+test_merged.dropna()
+
 
 train_merged.to_csv('cyberbullying-data\merged_train.csv', index=False)
 test_merged.to_csv('cyberbullying-data\merged_test.csv', index=False)
